@@ -1,0 +1,202 @@
+/*===================================
+    - Template Name: Tinyone | Bootstrap | landing page PSD to HTML
+    - Author: Mst. Monia Bilashi Moni
+    - Version: 
+    - Website: 
+=====================================*/
+
+
+
+
+/* =======================================
+   Start Universal Secletor or common css 
+   ======================================= */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a, a:hover{
+    text-decoration:none;
+    color: black;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --primary:#262C4C;
+    --secondary:#ffffff;
+}
+h1, h2, h3,h4,h5,h6,p,a{
+    font-family: 'PT Sans', sans-serif; 
+}
+/* p,a{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+/*=================================================
+     End Universal Secletor 
+  ================================================== */
+
+  /* Start Main Section */
+  .main_table{
+    width:900px;
+    box-shadow: 0 0 5px 2px black;
+    margin: 20px auto;
+    background: var(--primary);
+  }
+  table,tr,td{
+    border-collapse: collapse;
+  }
+  /* ========================
+       Start Left Cont table css
+       =============================== */
+  .left_cont{
+    width:300px;
+  }
+  .left_cont_tab_tr{
+    text-align: center;
+  }
+  .left_cont_tab_tr_td{
+    padding: 20px 0;
+  }
+  .left_cont_tab_tr_td img{
+    width: 180px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+  }
+  .left_cont_h4_1{
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+  }
+  .left_cont_tab_tr_contact{
+    padding: 10px 0;
+    color: #fff;
+    
+  }
+  .left_cont_p_contact a{
+    color: white;
+    font-size: 12px;
+  }
+  .left_cont_p_contact{
+    padding-bottom: 5px;
+    /* text-align: left; */
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+  }
+  /* .left_cont_p_contact_street{
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    text-align: left;
+  } */
+  .left_cont_p_contact img{
+    padding: 0 5px 0 0;
+  }
+  .social_cont{
+    padding: 20px 0;
+  }
+  .left_cont_p_social a{
+    border: 1px solid #fff;
+    padding: 0px 5px 3px;
+  }
+  .left_cont_p_social{
+    padding-right: 5px;
+  }
+   /* ========================
+       End Left Cont table css
+       =============================== */
+  /* ========================
+       Start Right Cont table css
+       =============================== */
+  .right_cont{
+    width: 600px;
+    color: #fff;
+  }
+  .right_name{
+    font-size: 40px;
+  }
+  .right_deccription{
+    width: 95%;
+    margin: 20px 0;
+  }
+  .right_cont_tab_tr{
+    width: 600px;
+    background: #fff;
+  }
+  .right_cont_tab_tr_td{
+    padding: 30px 0;
+  }
+  .right_table_sub{
+    background-color: #fff;
+    width: 100%;
+    padding: 50px 0;
+  }
+  .right_tab_sub_title{
+    width: 90%;
+    margin: auto;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 2px 0;
+  }
+  .right_table_sub_tr{
+    text-align: center;
+  }
+  .right_table_sub_tr_p{
+    width: 85%;
+    color: #000;
+    text-align: justify;
+    margin: auto;
+    padding: 15px 0;
+  }
+  .right_table_sub_tr_cap_h{
+    font-weight: 900;
+    color: #000;
+    padding: 10px 0;
+    text-align: left;
+    width: 85%;
+    margin: auto;
+  }
+  .right_table_sub_tr_cap_p{
+    color: #000;
+    text-align: left;
+    width: 85%;
+    margin: auto;
+  }
+  .pp{
+    font-weight: 900;
+  }
+  .pp2{
+    margin-bottom: 25px;
+  }
+  .td_padd{
+    padding: 0;
+  }
