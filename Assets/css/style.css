@@ -200,3 +200,12 @@ a {
   .td_padd{
     padding: 0;
   }
+  .td_profession{
+    color: #fff;
+  }
+  .cirt_dis td{
+    padding-bottom: 10px;
+  }
+  .tr_ref{
+    padding: 10px 0px 15px;
+  }
